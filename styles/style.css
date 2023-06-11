@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+body {
+  font-family: "Times New Roman", Times, sans-serif;
+}
+
+header {
+  background: url(../assets/img/wheelchair.jpg) center;
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+.nav-link:hover {
+  background: whitesmoke;
+  border-radius: 25px;
+  color: black;
+}
+
+h1 {
+  padding-top: 180px;
+  padding-left: 110px;
+  color: whitesmoke;
+}
+
+.nav-item {
+  padding-right: 50px;
+}
+.section-1 {
+  background: rgb(229, 228, 228);
+  margin: 0 7px;
+  border-radius: 7px;
+}
+.container {
+  padding: 0;
+}
+.section-2 {
+  background-color: rgb(229, 228, 228);
+  margin: 10px 7px 0 7px;
+  border-radius: 7px;
+}
+.events {
+  margin: 10px;
+}
+.event-details .button {
+  padding: 30px 0;
+}
+.event-details {
+  padding-bottom: 10px;
+}
+h2 {
+  padding: 20px 35px;
+}
+
+.contact input {
+  width: 80%;
+}
+
+.contact textarea {
+  width: 80%;
+  resize: none;
+}
+
+.btn {
+  background: none;
+  border: 1px solid rgb(158, 156, 156);
+  border-radius: 50px;
+  padding: 7px 10px;
+  font: 700 0.8rem "Times New Roman";
+  transition: 0.4s ease;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.button {
+  margin-bottom: 10px;
+}
+.btn:hover,
+footer a:hover {
+  background: rgb(210, 233, 241);
+  color: deeppink;
+}
+
+.address div {
+  padding: 10px;
+}
+.envelop a {
+  color: black;
+  text-decoration: underline;
+}
+.envelop > a:hover {
+  color: deeppink;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
+  margin: 10px auto;
+  height: 70px;
+}
+
+footer a {
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    max-height: 50vh;
+    max-width: border-box;
+  }
+  h1 {
+    font-size: 1.5rem;
+    max-width: 75%;
+    padding-top: 130px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  header {
+    max-height: 50vh;
+  }
+  h1 {
+    font-size: 1.2rem;
+    max-width: 70%;
+    padding-top: 90px;
+  }
+  .networks {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .navbar-nav {
+    font-size: 0.9rem;
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 1em;
+    padding-left: 60px;
+  }
+
+  .networks {
+    max-width: 90%;
+    justify-content: space-evenly;
+  }
+}
